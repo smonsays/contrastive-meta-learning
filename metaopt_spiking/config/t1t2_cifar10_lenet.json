@@ -1,0 +1,17 @@
+{
+    "batch_size": 500,
+    "dataset": "cifar10",
+    "init_l2": 0.0001,
+    "inner_init": "fixed_seed",
+    "lr_inner": 0.001,
+    "lr_outer": 0.001,
+    "method": "t1t2",
+    "model": "lenet",
+    "optimizer_inner": "sgd_nesterov",
+    "optimizer_outer": "adam",
+    "seed": null,
+    "steps_inner": 3000,
+    "steps_outer": 100,
+    "train_subset": null,
+    "validation_split": 0.5
+}

@@ -1,0 +1,6 @@
+higher==0.2.1
+numpy==1.21.1
+ray==1.5.1
+tensorboard==2.6.0
+torch==1.9.1
+torchvision==0.10.1
