@@ -11,7 +11,7 @@ In the data_i folder you should have a miniimagenet folder that contains the fol
 
 See the related [issue in torchmeta](https://github.com/tristandeleu/pytorch-meta/issues/134) 
 
-2. We experimented with multiprocessing to parallelize computation over batches of data. Please adjust the arguments `--max_batches_process` `--max_batches_process_test` to adjust the usage of your GPU. The values used in `commands.sh` should enable running the experiments on 12GB GPUs. The very first time you execute the code, the multiprocessing might run into problems. Please just stop and reexecute. 
+2. We experimented with multiprocessing to parallelize computation over batches of data. Please adjust the arguments `--max_batches_process` `--max_batches_process_test` to adjust the usage of your GPU. The values used in `commands.sh` should enable running the experiments on 12GB GPUs. The very first time you execute the code, the multiprocessing might run into problems. Please just reexecute. 
 
 Please do not hesitate to contact us if you have questions, remarks or interesting things to discuss.
 
