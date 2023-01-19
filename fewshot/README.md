@@ -6,7 +6,7 @@ Please refer to the [commands.sh](commands.sh)  file for commands to start the O
 
 Please note: 
 
-1. Unfortunately, when running the miniImageNet experiments, one has to download the data manually and put them in the folder "data_i". 
+1. Unfortunately, to enable running the miniImageNet experiments, one has to download the data manually and put them in the folder "data_i". 
 In the data_i folder you should have a miniimagenet folder that contains the following files: test_data.hdf5, test_labels.json, train_data.hdf5, train_labels.json, val_data.hdf5, val_labels.json
 
 See the related [issue in torchmeta](https://github.com/tristandeleu/pytorch-meta/issues/134) 
