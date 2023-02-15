@@ -5,7 +5,7 @@ Official implementation of the paper [A contrastive rule for meta-learning](http
 ## Usage
 
 - [`metaopt_spiking/`](https://github.com/smonsays/contrastive-meta-learning/blob/main/metaopt_spiking) implements the meta-optimization experiments of section 5.2 and the recurrent spiking network experiments of section 5.4
-- [`fewshot/`](https://github.com/smonsays/contrastive-meta-learning/blob/main/fewshot) links to the visual few-shot experiments of section 5.3
+- [`fewshot/`](https://github.com/smonsays/contrastive-meta-learning/blob/main/fewshot) implements the visual few-shot experiments of section 5.3
 - [`bandit/`](https://github.com/smonsays/contrastive-meta-learning/blob/main/bandit) implements the reward-based learning experiment of section 5.5
 
 ## Dependencies
